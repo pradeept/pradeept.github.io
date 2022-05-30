@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container > h2{
+    color: white;
+}
+.container >small{
+    color: rgb(219, 217, 217);
+    margin-bottom: 5px;
+}
