@@ -7,38 +7,191 @@
     <title>Pradeep Tarakar</title>
     <!-- Local CSS -->
     <link rel="stylesheet" href="styles/index.css">
-    <!-- Box Icon -->
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <!-- FontAwsome -->
+   <script src="https://kit.fontawesome.com/d27ab3e769.js" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav>
         <ul>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="#skill">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="">Resume </a></li>
-            <!-- <box-icon name='download'></box-icon> -->
+            <li><a href="">Resume <i class="fa-solid fa-download" style="color: #616161;"></i> </a></li>
+            
         </ul>
         
     </nav>
     <!-- Home/Hero -->
     <section id="hero">
-        <h1>Hello <span>👋</span></h1>
+        <h1 > 👋<br><span class="greet"></span> </h1>
 
         <p>I'm <span>Pradeep Taarkar</span></p>
         <img src="/images/undraw_welcoming_re_x0qo.svg" alt="" width="70px" height="90px">
     </section>
     <!-- Skills -->
-    <section id="skills">
-        <div class="programming">
-            <h3>Programming Languages</h3>
-            
+    <section id="skill">
+        <div id="skills-title">
+            <h1>SKILLS</h1>
         </div>
-        <div>
-            <h3>Tools</h3>
+        <div id="skills">
+            <div class="programming card">
+                <div>
+                    <h2>Programming Languages and Frameworks</h2>
+                </div>
+                <div class="icons-container">        
+                    
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" class="icons"/>
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" class="icons"/>
+              
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="icons"/>
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="icons"/>
+              
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="icons"/>
+              
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="icons"/>
+              
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" class="icons"/>
+                     
+                </div>
+            </div>
+    
+            <div class="frameworks card">
+                <div>
+                    <h2>Frameworks and Libraries</h2>
+                </div>
+                <div class="icons-container">        
+                    
+    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" class="icons"/>
+                              
+    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"class="icons" />
+                    
+    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="icons"/>
+                              
+    
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="icons" />
+                              
+    
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="icons"/>
+                              
+                 
+                </div>
+            </div>
+    
+            <div class="operating-systems card">
+                <div>
+                    <h2>Operating Systems</h2>
+                </div>
+                <div class="icons-container">        
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="icons" />
+                
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="icons" />
+                
+                </div>
+            </div>
+    
+            <div class="other card">
+                <div>
+                    <h2>Other</h2>
+                </div>
+                <div class="icons-container">        
+                    
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" class="icons" />
+                    
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"  class="icons"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"  class="icons"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="icons" />
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" class="icons" />
+          
+                 
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Projects -->
+    <section >
+        <div id="projects">
+            <div class="projects-title">
+                <h1>PROJECTS</h1>
+            </div>
+        </div>
+        <div class="projects-list">
+            <a href="https://github.com/pradeept/WifiP2P-Messaging_and_FileSharing" target="_blank">
+                <div class="card-container">
+                    <div class="project-card card">
+                        <img src="images/nullNet.png" />
+                        <p><strong>'nullNet'</strong> is an android App. Used for chatting and Image Sharing without Internet.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/pradeept/Keeper-App" target="_blank">
+                <div class="card-container">
+                    <div class="project-card card">
+                        <img src="images/keeper.png" />
+                        <p><strong>'Keeper App'</strong> is an React Application inspired by Google's Notes app. for keeping notes. </p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/pradeept/Simon-Game" target="_blank">
+                <div class="card-container">
+                    <div class="project-card card">
+                        <img src="images/simon_game.png" />
+                        <p><strong>'Simon Game'</strong> is an game of short-term memory skill. Implemented using JavaScript </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+         <a class="more" href="https://github.com/pradeept"><i class="fa-solid fa-angles-right fa-3x"></i></a>
+    </section>
+
+
+    <!-- Contacts -->
+    <section id="contact">
+        <div class="contacts-container">
+            <a href="https://www.linkedin.com/in/pradeep-tarakar/" target="_blank"><i class="fa-brands fa-linkedin fa-2x icon-shadow" style="color: #888888;"></i></a>
+            <a href="https://github.com/pradeept" target="_blank"><i class="fa-brands fa-github fa-2x icon-shadow" style="color: #888888;"></i></a>
+            <a href="https://twitter.com/pradeep_taarkar" target="_blank"><i class="fa-brands fa-twitter fa-2x icon-shadow" style="color: #888888;"></i></a>
         </div>
     </section>
+
+
+
+    <script>
+        
+
+        $(document).ready(()=>{
+            const greet = $(".greet");
+            const greetings = ["Hello!","नमस्ते","¡Hola!","Bonjour!"];
+            // "ನಮಸ್ಕಾರ"
+            
+            // Typed.js is a typing animation library
+            var typed = new Typed('.greet', {
+                strings: greetings,
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop:true
+            });
+        });
+        
+        
+    </script>
 </body>
 </html>
